@@ -13,7 +13,7 @@ const Duration _kWindowDuration = Duration(milliseconds: _windowPopupDuration);
 * 在指定位置弹出窗口
 * */
 
-class PopupWindowWidget<T> extends StatefulWidget {
+class PopupWindowWidget extends StatefulWidget {
   PopupWindowWidget({
     Key key,
     this.child,
