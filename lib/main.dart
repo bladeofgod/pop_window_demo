@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_pop_window_demo/demo_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: DemoPage(),
     );
   }
 }
